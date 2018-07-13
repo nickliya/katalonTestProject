@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>进度百度并且搜索katalon</description>
    <name>Test Case 1</name>
    <tag></tag>
    <comment></comment>

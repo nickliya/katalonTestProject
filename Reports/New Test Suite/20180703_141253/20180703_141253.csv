@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,Chrome 67.0.3396.99,,2018-07-03 14:12:55,2018-07-03 14:12:58,2.725s,PASSED
+,,,,,,
+Test Cases/Test Case 1,Chrome 67.0.3396.99,,2018-07-03 14:12:55,2018-07-03 14:12:57,2.257s,PASSED
+openBrowser,Chrome 67.0.3396.99,,2018-07-03 14:12:56,2018-07-03 14:12:56,0.924s,PASSED
+navigateToUrl,Chrome 67.0.3396.99,,2018-07-03 14:12:56,2018-07-03 14:12:57,0.725s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-03 14:12:57,2018-07-03 14:12:57,0.198s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-03 14:12:57,2018-07-03 14:12:57,0.102s,PASSED

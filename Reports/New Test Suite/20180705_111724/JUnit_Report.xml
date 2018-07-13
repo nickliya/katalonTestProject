@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="33" tests="0" failures="1" errors="0">
+   <testsuite name="New Test Suite" tests="0" failures="1" errors="0" time="33" timestamp="2018-07-05 11:17:29" hostname="fuzhi - yangqing" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\automationTest\\TestProject\\Reports\\New Test Suite\\20180705_111724"/>
+         <property name="logFiles" value="D:\\automationTest\\TestProject\\Reports\\New Test Suite\\20180705_111724\\execution0.log"/>
+         <property name="attachments" value="D:\\automationTest\\TestProject\\Reports\\New Test Suite\\20180705_111724\\1530760680337.png, D:\\automationTest\\TestProject\\Reports\\New Test Suite\\20180705_111724\\1530760680819.png"/>
+         <property name="hostName" value="fuzhi - yangqing"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="192.168.6.224"/>
+         <property name="sessionId" value="a7b6179354e2b2146650349a84bb01fd"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test Case 2" classname="Test Cases/Test Case 2" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/Page_ (2)/input_concatPhone' FAILED. (Root cause: Actual text '' and expected text '023-68545689111' of test object 'Object Repository/Page_ (2)/input_concatPhone' are NOT matched.)"/>
+         <system-out><![CDATA[2018-07-05 11:17:30 - [TEST_CASE][FAILED] - Test Cases/Test Case 2: Test Cases/Test Case 2 FAILED because (of) Verify element text of test object 'Object Repository/Page_ (2)/input_concatPhone' FAILED. (Root cause: Actual text '' and expected text '023-68545689111' of test object 'Object Repository/Page_ (2)/input_concatPhone' are NOT matched.)
+
+2018-07-05 11:17:31 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://192.168.6.223:8000'
+
+2018-07-05 11:17:51 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.6.223:8000'
+
+2018-07-05 11:17:51 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-05 11:17:52 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-05 11:17:52 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_/input_username'
+
+2018-07-05 11:17:53 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_/input_username'
+
+2018-07-05 11:17:53 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Page_/input_password'
+
+2018-07-05 11:17:54 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Page_/input_password'
+
+2018-07-05 11:17:54 - [TEST_STEP][PASSED] - setText: Text '6666' is set on object 'Object Repository/Page_/input_inputRandomCode'
+
+2018-07-05 11:17:55 - [MESSAGE][PASSED] - Text '6666' is set on object 'Object Repository/Page_/input_inputRandomCode'
+
+2018-07-05 11:17:55 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Page_/button_' is clickable
+
+2018-07-05 11:17:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/button_' is clickable
+
+2018-07-05 11:17:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_/button_' is clicked on
+
+2018-07-05 11:17:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_' is clicked on
+
+2018-07-05 11:17:56 - [TEST_STEP][PASSED] - setText: Text '023-68545689111' is set on object 'Object Repository/Page_ (2)/input_concatPhone'
+
+2018-07-05 11:18:00 - [MESSAGE][PASSED] - Text '023-68545689111' is set on object 'Object Repository/Page_ (2)/input_concatPhone'
+
+2018-07-05 11:18:00 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/Page_ (2)/input_concatPhone' FAILED. (Root cause: Actual text '' and expected text '023-68545689111' of test object 'Object Repository/Page_ (2)/input_concatPhone' are NOT matched.)
+
+2018-07-05 11:18:00 - [MESSAGE][FAILED] - Actual text '' and expected text '023-68545689111' of test object 'Object Repository/Page_ (2)/input_concatPhone' are NOT matched.
+[[ATTACHMENT|D:\\automationTest\\TestProject\\Reports\\New Test Suite\\20180705_111724\\1530760680337.png]]
+
+2018-07-05 11:18:01 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Page_ (2)/input_concatPhone' FAILED. (Root cause: Actual text '' and expected text '023-68545689111' of test object 'Object Repository/Page_ (2)/input_concatPhone' are NOT matched.)
+[[ATTACHMENT|D:\\automationTest\\TestProject\\Reports\\New Test Suite\\20180705_111724\\1530760680819.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-05 11:17:30 - [TEST_CASE][FAILED] - Test Cases/Test Case 2: Test Cases/Test Case 2 FAILED because (of) Verify element text of test object 'Object Repository/Page_ (2)/input_concatPhone' FAILED. (Root cause: Actual text '' and expected text '023-68545689111' of test object 'Object Repository/Page_ (2)/input_concatPhone' are NOT matched.)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-05 11:17:29 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/Test Case 2 FAILED because (of) Verify element text of test object 'Object Repository/Page_ (2)/input_concatPhone' FAILED. (Root cause: Actual text '' and expected text '023-68545689111' of test object 'Object Repository/Page_ (2)/input_concatPhone' are NOT matched.)]]></system-out>
+      <system-err><![CDATA[2018-07-05 11:17:29 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/Test Case 2 FAILED because (of) Verify element text of test object 'Object Repository/Page_ (2)/input_concatPhone' FAILED. (Root cause: Actual text '' and expected text '023-68545689111' of test object 'Object Repository/Page_ (2)/input_concatPhone' are NOT matched.)]]></system-err>
+   </testsuite>
+</testsuites>

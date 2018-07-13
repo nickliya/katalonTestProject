@@ -24,10 +24,19 @@ WebUI.openBrowser('http://192.168.6.223:8000')
 
 WebUI.maximizeWindow()
 
-CustomKeywords.'xxrkw.publickeywd.login'()
+WebUI.setText(findTestObject('Page_/input_username'), 'admin')
+
+WebUI.setText(findTestObject('Page_/input_password'), '123456')
+
+WebUI.setText(findTestObject('Page_/input_inputRandomCode'), '6666')
+
+WebUI.waitForElementClickable(findTestObject('Page_/button_'), 3)
+
+WebUI.click(findTestObject('Page_/button_'))
 
 WebUI.setText(findTestObject('Page_ (2)/input_concatPhone'), '023-68545689111')
 
 WebUI.verifyElementText(findTestObject('Page_ (2)/input_concatPhone'), '023-68545689111')
 
 WebUI.closeBrowser()
+

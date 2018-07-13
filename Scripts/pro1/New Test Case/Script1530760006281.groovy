@@ -20,14 +20,32 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('http://192.168.6.223:8000')
+def login(userName, password) {
+	WebUI.setText(findTestObject('logintest/Page_/input_userName'), userName)
+	
+	WebUI.setText(findTestObject('logintest/Page_/input_password'), password)
+}
 
-WebUI.maximizeWindow()
+WebUI.openBrowser('')
 
-CustomKeywords.'xxrkw.publickeywd.login'()
+WebUI.navigateToUrl('http://192.168.6.223:8000/#/login?from=%2Fsystem%2FshopSettings')
 
-WebUI.setText(findTestObject('Page_ (2)/input_concatPhone'), '023-68545689111')
+WebUI.setText(findTestObject('Page_ (3)/input_username'), 'admin')
 
-WebUI.verifyElementText(findTestObject('Page_ (2)/input_concatPhone'), '023-68545689111')
+WebUI.setText(findTestObject('Page_ (3)/input_password'), '123456')
+
+WebUI.setText(findTestObject('Page_ (3)/input_inputRandomCode'), '6666')
+
+WebUI.click(findTestObject('Page_ (3)/button_'))
+
+WebUI.click(findTestObject('Page_ (3)/label_'))
+
+WebUI.setText(findTestObject('Page_ (3)/input_concatPhone'), '02312345')
 
 WebUI.closeBrowser()
+
+WebUI.verifyElementText(findTestObject('Page_/input_username'), 'admin')
+
+
+
+login("admin", "123456")

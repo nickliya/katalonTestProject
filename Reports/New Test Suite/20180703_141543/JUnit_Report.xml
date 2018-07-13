@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="6" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="6" timestamp="2018-07-03 14:15:45" hostname="fuzhi - yangqing" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\automationTest\\TestProject\\Reports\\New Test Suite\\20180703_141543"/>
+         <property name="logFiles" value="D:\\automationTest\\TestProject\\Reports\\New Test Suite\\20180703_141543\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="fuzhi - yangqing"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="192.168.6.224"/>
+         <property name="sessionId" value="4bce54e9d35568a2b60f0461c0c49605"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test Case 1" classname="Test Cases/Test Case 1" status="PASSED">
+         <system-out><![CDATA[2018-07-03 14:15:45 - [TEST_CASE][PASSED] - Test Cases/Test Case 1: Test Cases/Test Case 1
+
+2018-07-03 14:15:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-03 14:15:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-03 14:15:49 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=katalon%20%E9%AA%8C%E8%AF%81%E7%A0%81%E8%AF%86%E5%88%AB&oq=katalon%2520%25E8%25BF%259B%25E9%2598%25B6&rsv_pq=a16e6e1000030008&rsv_t=83727xiOT9erYtdbkOOzJ+Wi+H94%2FYoz+KyERHgAUgPetnUpL0dXRI9um2o&rqlang=cn&rsv_enter=1&inputT=2526&rsv_sug3=38&rsv_sug1=15&rsv_sug7=100&rsv_sug2=0&rsv_sug4=3314' successfully
+
+2018-07-03 14:15:51 - [MESSAGE][PASSED] - Navigate to 'https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=katalon%20%E9%AA%8C%E8%AF%81%E7%A0%81%E8%AF%86%E5%88%AB&oq=katalon%2520%25E8%25BF%259B%25E9%2598%25B6&rsv_pq=a16e6e1000030008&rsv_t=83727xiOT9erYtdbkOOzJ+Wi+H94%2FYoz+KyERHgAUgPetnUpL0dXRI9um2o&rqlang=cn&rsv_enter=1&inputT=2526&rsv_sug3=38&rsv_sug1=15&rsv_sug7=100&rsv_sug2=0&rsv_sug4=3314' successfully
+
+2018-07-03 14:15:51 - [TEST_STEP][PASSED] - setText: Text 'katalon' is set on object 'Object Repository/Page_katalon_/input_wd'
+
+2018-07-03 14:15:51 - [MESSAGE][PASSED] - Text 'katalon' is set on object 'Object Repository/Page_katalon_/input_wd'
+
+2018-07-03 14:15:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_katalon_/input_su' is clicked on
+
+2018-07-03 14:15:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_katalon_/input_su' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-03 14:15:45 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/Test Case 1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
