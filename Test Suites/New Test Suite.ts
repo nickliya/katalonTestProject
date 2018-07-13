@@ -15,6 +15,6 @@
       <guid>b3111894-e7d9-4481-8c91-f546493a5e15</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Case 2</testCaseId>
+      <testCaseId>Test Cases/yqForPractice/Test Case 2</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
