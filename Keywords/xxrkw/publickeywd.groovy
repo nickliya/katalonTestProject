@@ -28,6 +28,7 @@ import WebUiBuiltInKeywords as WebUI
 public class publickeywd {
 	@Keyword
 	def login(){
+		//新享融登录
 		WebUI.setText(findTestObject('Page_/input_username'), 'admin')
 
 		WebUI.setText(findTestObject('Page_/input_password'), '123456')
