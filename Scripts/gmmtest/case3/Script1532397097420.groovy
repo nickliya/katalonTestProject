@@ -24,6 +24,28 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://192.168.6.223:8000/#/login?from=%2FterminalManage')
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://192.168.6.223:8000/#/login?from=%2FterminalManage')
+
+WebUI.setText(findTestObject('folder1/Page_ (3)/input_username'), 'admin')
+
+WebUI.setText(findTestObject('folder1/Page_ (3)/input_password'), '123456')
+
+WebUI.setText(findTestObject('folder1/Page_ (3)/input_inputRandomCode'), '6666')
+
+WebUI.click(findTestObject('folder1/Page_ (3)/button_'))
+
+WebUI.click(findTestObject('folder1/Page_ (3)/a_'))
+
+WebUI.setText(findTestObject('folder1/Page_ (3)/input_ICCID'), '0000000000000')
+
+WebUI.sendKeys(findTestObject('folder1/Page_ (3)/input_ICCID'), Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('folder1/Page_ (3)/button_ (1)'))
+
+WebUI.closeBrowser()
+
 WebUI.setText(findTestObject('folder1/Page_ (2)/input_username'), 'admin')
 
 WebUI.click(findTestObject('folder1/Page_ (2)/button_'))
