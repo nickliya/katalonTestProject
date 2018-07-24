@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+suite1,,,2018-07-24 11:50:22,2018-07-24 11:50:23,1.443s,FAILED
+,,,,,,
+Test Cases/gmmtest/case3,,,2018-07-24 11:50:22,2018-07-24 11:50:23,0.940s,FAILED
+openBrowser,,,2018-07-24 11:50:23,2018-07-24 11:50:23,0.530s,FAILED
